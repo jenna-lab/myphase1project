@@ -35,7 +35,7 @@
             <p id="what">WHAT TIME IS IT?</p>
             <h1 id="text">COFFEE O'CLOCK.</h1>
           </div>
-          
+
           <div id="types-list" class="list-container">
             <!--side menu-->
             <ul id="types">
@@ -46,5 +46,15 @@
              <!--posters-->
              <div id="poster"><img src="./images/back2.jpg">
              </div>
+      <!--showing all the info-->
+<div id="coffee-details">
+    <div id="title">[TYPE OF COFFEE HERE]</div>
+    Ingredients:<div id="ingredients"></div>
+    Description:<div id="description"></div>
+    <img id="image"src="" alt="LOADING..."/>
+    <div id="price">[Price]</div>
+    <button id="Button" onclick={renderCoffeeDetails()} >ORDER</button>
+    <button id="payment" type="button" onclick="prompt('Please enter quantity', ' ')" >Payment Method</button>
+    </div>         
      
   
