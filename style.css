@@ -56,3 +56,16 @@
     background-color: burlywood;
   }
   
+  #poster {
+    width: 25%;
+  }
+  #poster img {
+    width: 100%;
+    height: 100%;
+  }
+  #image {
+    height: 100px;
+    display: flex;
+    padding-left: 80px;
+    width: 110px;
+  }
