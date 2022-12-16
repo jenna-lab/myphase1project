@@ -124,3 +124,19 @@
     padding-top: 150px;
     padding-left: 45%;
   }
+
+  #coffee-details #title {
+    padding: 10%;
+  }
+  #coffee-details #ingredients {
+    padding: 10px;
+  }
+  #coffee-details #description {
+    padding: 10px;
+  }
+  #coffee-details #price {
+    padding: 20px;
+  }
+  #coffee-details #button {
+    padding: 10px;
+  }
