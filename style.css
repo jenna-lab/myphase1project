@@ -1,202 +1,203 @@
 * {
-    margin: 0px;
-    padding: 0px;
-  }
-  
-  body {
-    background-color: burlywood;
-    float: centre;
-    font-family: sans-serif;
-    background-image: url(./images/backfinal.jpg);
-    background-size: cover;
-  }
+  margin: 0px;
+  padding: 0px;
+}
 
-  <!--navbar-- > 
-  #navbar ul {
-    list-style-type: none;
-  }
-  #navbar {
-    padding: 30px;
-  }
-  
-  ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  ul li {
-    list-style: none;
-    padding-left: 70px;
-  }
-  
-  #landing-page {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    padding-top: 15px;
-  }
-  #pitch {
-    flex: 0 0 15%;
-    width: 30%;
-    text-align: center;
-    border: 5px;
-    height: 350px;
-    padding-top: 10%;
-  }
-  #pitch #text {
-    font-weight: bolder;
-    font-size: 5ch;
-  }
-  #pitch #what {
-    font-size: 2ch;
-    font-weight: bold;
-  }
-  #types-list {
-    width: 25%;
-    background-color: burlywood;
-  }
-  
-  #poster {
-    width: 25%;
-  }
-  #poster img {
-    width: 100%;
-    height: 100%;
-  }
-  #image {
-    height: 100px;
-    display: flex;
-    padding-left: 80px;
-    width: 110px;
-  }
+body {
+  background-color: burlywood;
+  float: centre;
+  font-family: sans-serif;
+  background-image: url(./images/backfinal.jpg);
+  background-size: cover;
+}
 
-  #coffee-details {
-    border: solid;
-    width: 30%;
-    background-color: burlywood;
-  }
-  
-  #coffee-details #title {
-    font-weight: bold;
-    font-size: large;
-  }
+<!--navbar-- > #navbar ul {
+  list-style-type: none;
+}
+#navbar {
+  padding: 30px;
+}
 
-  #payment{
-    background-color:black;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-decoration: none;
-    font-size: 16px;
-  }
-  #payment{
-    transition-duration: 0.4s;
-  
-  }
-  #payment:hover{
-    background-color: #4CAF50; 
-    color: white;
-  }
-  
-  #Button {
-    background-color:black;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    padding-left: 20%;
-    padding-right: 20%;
-  }
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  padding-left: 70px;
+}
 
-  #Button {
-    transition-duration: 0.4s;
-  }
-  
-  #Button:hover {
-    background-color: #4CAF50; 
-    color: white;
-  }
-  
-  .copyright {
-    text-align: center;
-    padding-top: 150px;
-    padding-left: 45%;
-  }
+#landing-page {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 15px;
+}
+#pitch {
+  flex: 0 0 15%;
+  width: 30%;
+  text-align: center;
+  border: 5px;
+  height: 350px;
+  padding-top: 10%;
+}
+#pitch #text {
+  font-weight: bolder;
+  font-size: 5ch;
+}
+#pitch #what {
+  font-size: 2ch;
+  font-weight: bold;
+}
+#types-list {
+  width: 25%;
+  background-color: burlywood;
+}
 
-  #coffee-details #title {
-    padding: 10%;
-  }
-  #coffee-details #ingredients {
-    padding: 10px;
-  }
-  #coffee-details #description {
-    padding: 10px;
-  }
-  #coffee-details #price {
-    padding: 20px;
-  }
-  #coffee-details #button {
-    padding: 10px;
-  }
+#poster {
+  width: 25%;
+}
+#poster img {
+  width: 100%;
+  height: 100%;
+}
+#image {
+  height: 100px;
+  display: flex;
+  padding-left: 80px;
+  width: 110px;
+}
 
-  .open-button {
-    background-color: green;
-    color: white;
-    padding: 16px 20px;
-    border: none;
-    cursor: pointer;
-    opacity: 0.8;
-    position: fixed;
-    bottom: 23px;
-    right: 28px;
-    width: 280px;
-  }
-  
-  .chat-popup {
-    display: none;
-    position: fixed;
-    bottom: 0;
-    right: 15px;
-    border: 3px solid #f1f1f1;
-    z-index: 9;
-  }
-  
-  .form-container {
-    max-width: 300px;
-    padding: 10px;
-    background-color: white;
-  }
+#coffee-details {
+  border: solid;
+  width: 30%;
+  background-color: burlywood;
+}
 
+#coffee-details #title {
+  font-weight: bold;
+  font-size: large;
+}
+
+#payment {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+}
+#payment {
+  transition-duration: 0.4s;
+}
+#payment:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+#Button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#Button {
+  transition-duration: 0.4s;
+}
+
+#Button:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 150px;
+  padding-left: 45%;
+}
+
+#coffee-details #title {
+  padding: 10%;
+}
+#coffee-details #ingredients {
+  padding: 10px;
+}
+#coffee-details #description {
+  padding: 10px;
+}
+#coffee-details #price {
+  padding: 20px;
+}
+#coffee-details #button {
+  padding: 10px;
+}
+
+.open-button {
+  background-color: green;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
 
 .form-container textarea {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    border: none;
-    background: #f1f1f1;
-    resize: none;
-    min-height: 200px;
-  }
-  
-  .form-container textarea:focus {
-    background-color: #ddd;
-    outline: none;
-  }
-  
-  .form-container .btn {
-    background-color: #04aa6d;
-    color: white;
-    padding: 16px 20px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    margin-bottom: 10px;
-    opacity: 0.8;
-  }
-  
-  .form-container .cancel {
-    background-color: red;
-  }
-  
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+.form-container .cancel {
+  background-color: red;
+}
+
+.form-container .btn:hover,
+.open-button:hover {
+  opacity: 1;
+}
