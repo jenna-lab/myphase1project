@@ -69,3 +69,14 @@
     padding-left: 80px;
     width: 110px;
   }
+
+  #coffee-details {
+    border: solid;
+    width: 30%;
+    background-color: burlywood;
+  }
+  
+  #coffee-details #title {
+    font-weight: bold;
+    font-size: large;
+  }
