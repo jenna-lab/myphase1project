@@ -1,5 +1,7 @@
 # myphase1project
 
+# AUTHOR:jennifer sammy
+
 # Introduction
 
 Welcome to JavaScript Project Mode!
@@ -33,3 +35,16 @@ Run this command to get the backend started:
 $ json-server --watch db.json
 
 Test your server by visiting this route in the browser:
+As a user I can:
+ 1.CLICK ON A COFFE DRINK AND DISPLAY ALL DETAILS ABOUT IT
+ 2.ORDER A COFFEE DRINK
+ 3.ENTER QUANTTY AND PAYMENT METHOD
+ 4.CHAT OR SHARE SUGGESTIONS VIA THE CHAT BOX BELOW THE PAGE
+
+# License
+Copyright (c) 2022 jennifer sammy...(https://github.com/jenna-lab/myphase1project/blob/main/LICENSE)
+
+
+
+
+
