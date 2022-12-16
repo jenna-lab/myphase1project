@@ -13,6 +13,7 @@ const renderTypes = (types) => {
     li.addEventListener(`click`, () => renderCoffeeDetails(type));
   });
 };
+
 const renderCoffeeDetails = (type) => {
   console.log(type);
   document.getElementById(`image`).src = type.image;
