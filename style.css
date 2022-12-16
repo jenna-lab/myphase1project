@@ -80,3 +80,32 @@
     font-weight: bold;
     font-size: large;
   }
+
+  #payment{
+    background-color:black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  #payment{
+    transition-duration: 0.4s;
+  
+  }
+  #payment:hover{
+    background-color: #4CAF50; 
+    color: white;
+  }
+  
+  #Button {
+    background-color:black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
