@@ -1,6 +1,6 @@
 # myphase1project
 
-# AUTHOR:jennifer sammy
+# Author:jennifer sammy
 
 # Introduction
 
@@ -35,6 +35,7 @@ Run this command to get the backend started:
 $ json-server --watch db.json
 
 Test your server by visiting this route in the browser:
+#mvp
 As a user I can:
  1.CLICK ON A COFFE DRINK AND DISPLAY ALL DETAILS ABOUT IT
  2.ORDER A COFFEE DRINK
