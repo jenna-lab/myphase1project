@@ -10,3 +10,49 @@
     background-image: url(./images/backfinal.jpg);
     background-size: cover;
   }
+
+  <!--navbar-- > 
+  #navbar ul {
+    list-style-type: none;
+  }
+  #navbar {
+    padding: 30px;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ul li {
+    list-style: none;
+    padding-left: 70px;
+  }
+  
+  #landing-page {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 15px;
+  }
+  #pitch {
+    flex: 0 0 15%;
+    width: 30%;
+    text-align: center;
+    border: 5px;
+    height: 350px;
+    padding-top: 10%;
+  }
+  #pitch #text {
+    font-weight: bolder;
+    font-size: 5ch;
+  }
+  #pitch #what {
+    font-size: 2ch;
+    font-weight: bold;
+  }
+  #types-list {
+    width: 25%;
+    background-color: burlywood;
+  }
+  
