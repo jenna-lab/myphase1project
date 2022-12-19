@@ -1,15 +1,4 @@
-// const baseURL = `https://api.sampleapis.com/coffee/hot`;
-// fetch(baseURL)
-//   .then((resp) => resp.json())
-//   .then((data) => displayData(data));
 
-// function displayData(data) {
-//   const container = getElementByClassName("container");
-//   const preElement = document.createElement("pre");
-//   const textNode = document.createTextNode(JSON.stringify(data, null, 2));
-//   preElement.appendChild(textNode);
-//   container.appendChild(preElement);
-// }
 
 fetch("https://api.sampleapis.com/coffee/hot")
   .then((resp) => resp.json())
@@ -33,7 +22,6 @@ const renderCoffeeDetails = (type) => {
   document.getElementById(`title`).innerHTML = type.title;
   document.getElementById(`description`).innerHTML = type.description;
   document.getElementById(`ingredients`).innerHTML = type.ingredients;
-  document.getElementById(`price`).innerHTML = type.price;
 };
 const button = document.getElementById(`Button`).innerHTML;
 
