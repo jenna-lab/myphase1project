@@ -1,5 +1,3 @@
-
-
 fetch("https://api.sampleapis.com/coffee/hot")
   .then((resp) => resp.json())
   .then((types) => renderTypes(types));
