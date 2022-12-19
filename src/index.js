@@ -1,4 +1,17 @@
-fetch("http://localhost:3000/types")
+// const baseURL = `https://api.sampleapis.com/coffee/hot`;
+// fetch(baseURL)
+//   .then((resp) => resp.json())
+//   .then((data) => displayData(data));
+
+// function displayData(data) {
+//   const container = getElementByClassName("container");
+//   const preElement = document.createElement("pre");
+//   const textNode = document.createTextNode(JSON.stringify(data, null, 2));
+//   preElement.appendChild(textNode);
+//   container.appendChild(preElement);
+// }
+
+fetch("https://api.sampleapis.com/coffee/hot")
   .then((resp) => resp.json())
   .then((types) => renderTypes(types));
 
@@ -16,7 +29,7 @@ const renderTypes = (types) => {
 
 const renderCoffeeDetails = (type) => {
   console.log(type);
-  document.getElementById(`image`).src = type.image;
+  document.getElementById('image').src = type.image;
   document.getElementById(`title`).innerHTML = type.title;
   document.getElementById(`description`).innerHTML = type.description;
   document.getElementById(`ingredients`).innerHTML = type.ingredients;
